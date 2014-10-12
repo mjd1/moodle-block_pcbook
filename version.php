@@ -26,9 +26,10 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$plugin->version = 2014092300;
-$plugin->requires = 2010112400;
+$plugin->version = 2014101200;
+$plugin->requires = 2013111800;
 $plugin->cron     = 0;
-$plugin->release  = '2.x (Build: 2014090800)';
+$plugin->component = 'block_pcbook';
+$plugin->release  = 'v1.0';
 $plugin->maturity = MATURITY_STABLE;
 
