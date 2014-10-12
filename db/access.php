@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -14,7 +13,7 @@
 //
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
- 
+
 /**
  * The pcbook block links to a pcbook server and shows how many
  * computers are free.
@@ -27,25 +26,25 @@
  */
 
     $capabilities = array(
-    	'block/pcbook:myaddinstance' => array(
-    		'captype' => 'write',
-    		'contextlevel' => CONTEXT_SYSTEM,
-    		'archetypes' => array(
-    			'user' => CAP_ALLOW
-    		),
-    		'clonepermissionsfrom' => 'moodle/my:manageblocks'
-    	),
+        'block/pcbook:myaddinstance' => array(
+            'captype' => 'write',
+            'contextlevel' => CONTEXT_SYSTEM,
+            'archetypes' => array(
+                'user' => CAP_ALLOW
+            ),
+            'clonepermissionsfrom' => 'moodle/my:manageblocks'
+        ),
 
-    	'block/pcbook:addinstance' => array(
-    		'riskbitmask' => RISK_SPAM | RISK_XSS,
-    		'captype' => 'write',
-    		'contextlevel' => CONTEXT_BLOCK,
-    		'archetypes' => array(
-    			'editingteacher' => CAP_ALLOW,
-    			'manager' => CAP_ALLOW
-    		),
-    		'clonepermissionsfrom' => 'moodle/site:manageblocks'
-    	),
+        'block/pcbook:addinstance' => array(
+            'riskbitmask' => RISK_SPAM | RISK_XSS,
+            'captype' => 'write',
+            'contextlevel' => CONTEXT_BLOCK,
+            'archetypes' => array(
+                'editingteacher' => CAP_ALLOW,
+                'manager' => CAP_ALLOW
+            ),
+            'clonepermissionsfrom' => 'moodle/site:manageblocks'
+        ),
     );
 
 

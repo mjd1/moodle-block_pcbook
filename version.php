@@ -1,5 +1,4 @@
 <?php
-
 // This file is part of Moodle - http://moodle.org/
 //
 // Moodle is free software: you can redistribute it and/or modify
@@ -26,7 +25,7 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$plugin->version = 2014101200;
+$plugin->version = 2014101201;
 $plugin->requires = 2013111800;
 $plugin->cron     = 0;
 $plugin->component = 'block_pcbook';

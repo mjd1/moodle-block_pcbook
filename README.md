@@ -16,4 +16,3 @@ enter that in the pattern option, eg. 'room1-' will match machines with names
 
 PCBook is available from http://valis.co.uk/pcbook
 
-
